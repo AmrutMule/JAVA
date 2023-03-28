@@ -1,0 +1,17 @@
+package test22;
+
+public class Array {
+
+	
+	public static void main(String[] args) {
+	
+	
+	double []marks=new double [] {55.12,56.17,66.17,77.12,88.66};
+	
+	
+	System.out.println("OUTPUT IS = "+marks[3]); 
+	
+	
+	
+}
+}
