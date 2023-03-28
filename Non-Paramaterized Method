@@ -1,0 +1,24 @@
+package demo;
+
+import neww.Localvariable;
+
+public class Demo12 {
+	int id;
+	String name;
+	double cont;
+	String address;
+	public static void main(String[] args) {
+		Demo12 stud=new Demo12();
+		stud.id=21;
+		stud.name="Amrut";
+		stud.cont=777777;
+		stud.address="Sambhajinagar";
+		{
+		
+		double sum=stud.id+stud.cont;
+		Localvariable.add();
+		
+		System.out.println("Info of "+stud.name+" "+stud.id+" "+stud.cont+" "+stud.address);
+	}
+				}
+}
