@@ -1,0 +1,13 @@
+package demo;
+
+public class AndOr {
+	int A=31;
+	int	 B=21;
+		
+		boolean C=A<B;
+		boolean C1=A>B;
+		boolean C2=A==B;{
+		System.out.println(C && C1);
+		System.out.println(C2||C1);
+}
+}
