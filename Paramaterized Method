@@ -1,0 +1,16 @@
+package demo;
+
+public class Paramater {
+void sum (int bio ,int phy ) {
+	int res = bio + phy ;
+	System.out.println(res);
+}
+
+public static void main(String[]args)
+{
+	Paramater t=new Paramater();
+	t.sum(35, 20);
+t.sum(10, 20);{
+	}
+}
+}
