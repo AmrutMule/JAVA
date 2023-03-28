@@ -1,0 +1,50 @@
+package demo;
+
+public class Operators {
+static int a=70;
+static int b=20;
+static double d=30.20d; 
+public void add()
+{
+	int add=a+b;
+	System.out.println(add);
+}
+ void sub()
+{
+	int sub=a-b;
+	System.out.println(sub);
+}
+ void mul()
+{
+	double mul= b*d;
+	System.out.println(mul);
+}
+ void div()
+{
+	double div = a/d;
+	System.out.println(div);
+}
+ void mod()
+{
+	int mod= a%b;
+	System.out.println(mod);
+}
+public static void main(String[] args) {
+	Operators opt=new Operators();
+	opt.add();
+	opt.sub();
+	opt.div();
+	opt.mul();
+	opt.mod();
+	System.out.println(a==b);
+	System.out.println(a!=d);
+	System.out.println(a<b);
+	System.out.println(a>b);
+	System.out.println(a<=b);
+	System.out.println(a>=b);
+	System.out.println(b<=d);
+
+
+
+}
+}
