@@ -1,0 +1,28 @@
+package demo;
+
+public class Switch {
+
+	public static void main(String[] args) {
+	int parcent=90;
+	switch (parcent)
+	{
+	case 90:
+	System.out.println("Grade is A");
+	case 80:
+		System.out.println("Grade is A");
+	case 70:
+		System.out.println("Grade is B");
+	case 60:
+		System.out.println("Grade is B");
+		
+	case 50:
+		System.out.println("Grade is C");
+	case 40:
+		System.out.println("Grade is F");
+	default:
+		System.out.println("FAIL");
+	}
+	
+	}
+
+}
